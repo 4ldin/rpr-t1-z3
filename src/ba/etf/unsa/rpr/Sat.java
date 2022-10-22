@@ -24,6 +24,6 @@ public class Sat {
     int DajSate() { return sati; }
     int DajMinute() { return minute; }
     int DajSekunde() { return sekunde; }
-    void Ispisi() { System.out.println( sati + ":" + minute + ":" + sekunde); }
+    void Ispisi() { System.out.println(DajSate() + ":" + DajMinute() + ":" + DajSekunde()); }
 }
 
